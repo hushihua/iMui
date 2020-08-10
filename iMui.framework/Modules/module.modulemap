@@ -1,0 +1,11 @@
+framework module iMui {
+  umbrella header "iMui.h"
+
+  export *
+  module * { export * }
+}
+
+module iMui.Swift {
+    header "iMui-Swift.h"
+    requires objc
+}
