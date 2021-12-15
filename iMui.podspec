@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.author       = "胡式华"
-  spec.name         = "iMApi"
+  spec.name         = "iMui"
   spec.version      = "1.2.6"
   spec.summary      = "iMui SDK for iOS"
   spec.description  = "iMui SDK for iOS"
