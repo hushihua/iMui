@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
   spec.author       = "胡式华"
   spec.name         = "iMApi"
-  spec.version      = "1.1.0"
+  spec.version      = "1.2.3"
   spec.summary      = "iMApi SDK for iOS"
   spec.description  = "iMApi SDK for iOS"
   spec.homepage     = "https://github.com/hushihua/iMapi.git"
@@ -13,5 +13,13 @@ Pod::Spec.new do |spec|
   spec.requires_arc = true
   spec.ios.deployment_target = "10.0"
   spec.ios.vendored_frameworks = "iMApi.framework"
+  
+  spec.frameworks = "Foundation", "UIKit"
+  spec.swift_version='5.0'
+  
+  spec.dependency 'iMApi'
+  
+  spec.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   
 end
