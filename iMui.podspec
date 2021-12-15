@@ -2,8 +2,8 @@ Pod::Spec.new do |spec|
   spec.author       = "胡式华"
   spec.name         = "iMApi"
   spec.version      = "1.2.6"
-  spec.summary      = "iMApi SDK for iOS"
-  spec.description  = "iMApi SDK for iOS"
+  spec.summary      = "iMui SDK for iOS"
+  spec.description  = "iMui SDK for iOS"
   spec.homepage     = "https://github.com/hushihua/iMui.git"
   spec.license      = { :type => "Commercial", :text => "@2019 Lema.cm" }
   spec.author       = { "Adam.Hu" => "adam.hu.2018@gmail.com" }
